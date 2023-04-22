@@ -1,0 +1,23 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Source+Sans+Pro:wght@300&display=swap');
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$theme-colors: (
+  "primary":    rgb(235, 113, 0),
+  "secondary":  lightgray,
+  "success":    green,
+  "info":       blue,
+  "warning":    tomato,
+  "danger":     red,
+  "light":      white,
+  "dark":       black
+);
+
+$card-border-radius: 12px;
+$navbar-light-hover-color: rgb(235, 113, 0);
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.nav-link:hover{
+    border-bottom: 5px solid  rgb(235, 113, 0) !important;    
+}

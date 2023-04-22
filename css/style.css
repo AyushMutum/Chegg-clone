@@ -1,0 +1,192 @@
+.nav-link{
+    transition: 600ms;
+    padding: 0 10px !important;
+    color: black;
+    font-weight: bold;
+    border-bottom: 5px solid  white !important; 
+}
+
+
+
+.nav-link:hover{
+    border-bottom: 5px solid  rgb(235, 113, 0) !important;    
+}
+
+
+.foot-link{
+    text-decoration: none;
+    transition: 600ms;
+    padding: 0 5px !important;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid white!important; 
+}
+
+.foot-link:hover{
+    border-bottom: 2px solid  rgb(235, 113, 0) !important;    
+}
+
+
+.foot-flex{
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+
+
+.nav-sep{
+    border-right: 2px solid rgb(76, 76, 76) ;
+}
+
+
+.hero{
+    background-image: url(../images/0309-CTFO-777_CM_PostMidtermsFinals_SOHPhero.webp);
+    height: 550px;
+    background-size: cover;
+}
+
+.m-hero{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+.content{
+    width: 650px;
+    padding: 150px 0 0 120px;
+    color: white;
+   
+}
+
+
+.img-header{
+    position: relative;
+}
+
+.tag{
+    position: absolute;
+    top:0;
+    background-color: rgb(235, 113, 0);
+    padding: 8px 26px;
+    color: white;
+    border-radius: 12px 0 12px 0;
+}
+
+
+.side-hero-1{
+    background-image: url('../images/addskills.webp');
+    height: 550px;
+    background-size: cover;
+    border-radius: 12px;
+
+}
+
+.side-hero-2{
+    background-image: url('../images/yoga.webp');
+    height: 550px;
+    background-size: cover;
+    border-radius: 12px;
+
+}
+
+
+.side-hero-content{
+    padding: 80px;
+    padding-top: 150px;
+}
+
+.search{
+    padding: 12px;
+    width: 520px;
+    
+    border-radius: 5px;
+    border: 1px solid  rgb(235, 113, 0);
+
+}
+
+.search:focus{
+    outline: none;
+    border: 4px solid  rgb(235, 59, 0);
+}
+
+.search-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.search-btn{
+   
+   
+    margin-left: -95px;
+   
+}
+
+@media (max-width:586px){
+    .hero{
+        display:none;
+    }
+
+    .hero-mobile{
+        display: block;
+    }
+}
+
+@media (min-width:586px){
+    .hero{
+        display:block;
+    }
+
+    .hero-mobile{
+        display: none;
+    }
+}
+
+
+@media(max-width:586px){
+    .footer{
+        display:none;
+    }
+
+    .mobile-footer{
+        display: block;
+    }
+}
+
+@media(min-width:586px){
+    .footer{
+        display:block;
+    }
+
+    .mobile-footer{
+        display: none;
+    }
+}
+
+.gap{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-evenly;
+  
+}
+
+.box{
+    border-top: 1px solid rgb(180, 177, 177);
+    margin-top: 30px;
+}
+
+.social-link-pointer{
+    cursor: pointer;
+}
